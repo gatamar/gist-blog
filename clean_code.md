@@ -1,4 +1,8 @@
-### 28.03.2021 Minimise usage of state variables
+### Minimise usage of state variables
+```
+date: 28.03.2021
+tags: #swift
+```
 
 Recently I've had such code:
 
