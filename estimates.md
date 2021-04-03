@@ -1,4 +1,5 @@
 ## Estimation
+`⏰ date: 03.04.2021 🪢 tags: #estimates`
 
 I'm very bad at estimating the duration of my work. Recently I had an insight - I'd never actually estimated stuff. I just guessed. Estimation is a skill, and it has a framework.
 There're such important variables:
