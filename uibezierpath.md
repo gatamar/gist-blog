@@ -8,7 +8,8 @@ My mind is blown. I wanted to reverse the math behind this filled curve:
 Of course this is should be done with `UIBezierPath` primitives, but which funcs to choose?
 
 I've thought of these:
-1. Quad curve 
+1. Quad curve.
+ 
 It has only 1 control point, but I don't feel this control point. So the curvature isn't what I've expected.
 
 ![image](https://github.com/gatamar/gist_blog/blob/main/resources/uibezierpath_2.png)
@@ -21,6 +22,7 @@ It has only 1 control point, but I don't feel this control point. So the curvatu
 
 Then I've created a model, which is slightly wrong (unit = `w/(4.33*4)`, not `w/(18)`). I'll fix this if needed.
 
+![image](https://github.com/gatamar/gist_blog/blob/main/resources/uibezierpath_4.png)
 
 The code looks like this:
 ```
