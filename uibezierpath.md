@@ -1,7 +1,7 @@
 ## UIBezierPath
 `⏰ date: 04.04.2021 🪢 tags: #UIKit #linalg`
 
-My mind is blown. I wanted to reverse the math behind this filled curve: 
+I wanted to reverse the math behind this filled curve: 
 
 ![image](https://github.com/gatamar/gist_blog/blob/main/resources/uibezierpath_1.png)
 
