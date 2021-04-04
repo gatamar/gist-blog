@@ -53,6 +53,6 @@ This code wants to be rewritten into vectors (left/right/normals), because I nee
 
 But while my `exension CGPoint` does have a logic for calculating vector normals, it doesn't know how to work with right/left vectors, so for now I've tried to use `UIBezierPath.apply(_ transform: CGAffineTransform)`. But it seems to rotate the layer, so vectors rotation should be easier to control.
 
-
+Along the way I've met `Intersecing Chord Theorem` :https://www.mathopenref.com/chordsintersecting.html
 
 
