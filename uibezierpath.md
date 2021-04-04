@@ -22,7 +22,7 @@ It has only 1 control point, but I don't feel this control point. So the curvatu
 
 Then I've created a model, which is slightly wrong (unit = `w/(4.33*4)`, not `w/(18)`). I'll fix this if needed.
 
-![image](https://github.com/gatamar/gist_blog/blob/main/resources/uibezierpath_4.png)
+![image](https://github.com/gatamar/gist_blog/blob/main/resources/uibezierpath_4.jpg)
 
 The code looks like this:
 ```
