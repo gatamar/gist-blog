@@ -1,6 +1,11 @@
 ## UIBezierPath
 `⏰ date: 04.04.2021 🪢 tags: #UIKit #linalg`
 
+### Bezier-related stuff
+
+https://cubic-bezier.com/
+
+### The story itself
 I wanted to reverse the math behind this filled curve: 
 
 ![image](https://github.com/gatamar/gist_blog/blob/main/resources/uibezierpath_1.png)
