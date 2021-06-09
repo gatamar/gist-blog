@@ -1,3 +1,5 @@
+## ImageMagick
+
 ### install ImageMagick MacOS
 ```
 brew install imagemagick
@@ -18,9 +20,9 @@ convert "1.png" -crop "64x64+0+16" +repage -strip -resample 72 "2.png"
 convert in-1.jpg in-5.jpg in-N.jpg +append out-in1-plus-in5-and-inN.jpg
 ```
 
-### remove sensitive metadata from image 
+### merge few images vertically
 ```
-exiftool -all= path/to/image.jpg
+convert in-1.jpg in-5.jpg in-N.jpg -append out-in1-plus-in5-and-inN.jpg
 ```
 
 ### convert into another format
@@ -28,11 +30,25 @@ exiftool -all= path/to/image.jpg
 convert rose.jpg rose.png
 ```
 
+## ExifTool
+
+### remove sensitive metadata from image 
+```
+exiftool -all= path/to/image.jpg
+```
+
+### change orientation 
+```
+exiftool -orientation#=6 image.jpeg
+```
+
 ### edit pano360 metadata (ExifTool)
 ```
 exiftool -FullPanoWidthPixels=2000 -FullPanoHeightPixels=1000 -CroppedAreaLeftPixels=0 -CroppedAreaTopPixels=0 \
          -CroppedAreaImageWidthPixels=2000 -CroppedAreaImageHeightPixels=1000 -ProjectionType="equirectangular" panorama.jpg
 ```
+
+## Other
 
 ### create loop from video
 https://clideo.com/editor/loop-video
