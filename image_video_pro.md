@@ -10,6 +10,12 @@ brew install imagemagick
 convert -size 100x100 xc:#00AAAA 1.png
 ```
 
+### create image with filled rect inside
+```
+# here "rectangle" takes LT+RB, not LT+WH 
+convert -size 300x300 xc:black -fill xc:blue -draw "rectangle 100,100 200,200" hole.png
+```
+
 ### crop image
 ```
 convert "1.png" -crop "64x64+0+16" +repage -strip -resample 72 "2.png"
