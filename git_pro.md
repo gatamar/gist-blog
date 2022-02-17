@@ -19,6 +19,11 @@ https://stackoverflow.com/questions/7203515/how-to-find-a-deleted-file-in-the-pr
 git reset --hard origin/master
 ```
 
+5. Cherry pick a commit from another branch
+```
+git cherry-pick -x MY_COMMIT_HASH
+```
+
 # keys
 
 ## GPG
