@@ -21,6 +21,11 @@ convert -size 300x300 xc:black -fill xc:blue -draw "rectangle 100,100 200,200" h
 convert "1.png" -crop "64x64+0+16" +repage -strip -resample 72 "2.png"
 ```
 
+### resize image (assuming aspect ratio is the same)
+```
+convert input.gif -resize 256x256 output.gif
+```
+
 ### merge few images horizontally
 ```
 convert in-1.jpg in-5.jpg in-N.jpg +append out-in1-plus-in5-and-inN.jpg
