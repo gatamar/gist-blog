@@ -13,7 +13,7 @@ So, let's return to the book. As you may know, I've been writing a small iOS app
 
 Then when this "chochlą" word happened, the only this I knew is that it's realated to the cooking accessories and that the main form of the word is `chochla`. I selected the word, tapped "Translate" in the context menu and WAIT... WAIT... WAIT... iOS said that Polish sucks just as well as Ukrainian. :(
 
-polish-1-1.jpeg
+![image](https://github.com/gatamar/gist_blog/blob/main/resources/polish-1-1.jpeg)
 
 So I googled how to add that Polish to the dictionary, and didn't found how to do that, and there was an app called "Dictionary Appender", but then Apple wiped it out from the AppStore.
 
@@ -31,7 +31,7 @@ It has 2 significant flaws:
 So for any unknown word I substract the last 2 or 3 letters, and search for them in my "dictionary" (this is how O(logN) become 0(N) again :D). I've heard some "suffix tree" can be build, some "fuzzy seach" can be performed, but again, 1 hour of coding is better than 40 hours of research + coding. 
 The current version of the app looks like this:
 
-polish-1-2.jpeg
+![image](https://github.com/gatamar/gist_blog/blob/main/resources/polish-1-2.jpeg)
 
 It's far from perfect, it doesn't know about 60% of the words I ask it, some part of that words would be known if some suffix correction was made, I want to improve this but I don't want to improve this.
 
