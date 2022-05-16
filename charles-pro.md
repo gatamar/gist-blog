@@ -4,6 +4,7 @@ Even if Charles is set up and some kind of commercial license is added, is't not
 ## Setup 
 + In `Proxy > SSL Proxy Settings` "\*" should be added to "Location".
 + `Help > SSL Proxying > Install Charles Root Certificate in iOS Simulators` should be checked to install certificate to Simulator
++ Install Charles Certificate to a physical iPhone by visiting https://chls.pro/ssl from that iPhone. If that sucking page shows some plain HTML text with some untappable checkbox, swipe that page from top to down. Get some dialog like "do really want to install this certificate?". Then go to `General > VPN DNS and Device Management`, approve that certificate. AND ONLY THEN go to `General > About > Certificate Trust Settings`.
 
 ## Questions
 
