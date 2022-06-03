@@ -7,4 +7,6 @@ AppStore sucks as always - no spinning wheel. Even if you initiate an update fro
 2. delete both `DerivedData` and `/Applications/Xcode.app`
 3. login to https://developer.apple.com/download/applications/, and download the latest Xcode.xip
 
-the progress is being shown at each step of downloading XIP, extracting it, verifying it; which make this autoupdate hell more manageable 
+the progress is being shown at each step of downloading XIP, extracting it, verifying it; which make this autoupdate hell more manageable <br>
+and downloading Xcode directly is much faster than downloading it from the AppStore
+
