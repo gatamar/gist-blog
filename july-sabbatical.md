@@ -18,3 +18,4 @@ TODO:
 + synchronisity, and why not having goals is good
 + why does my body loves this month as it's warm
 + why does full time job takes the most of my creative energy each day
++ how do I feel about missing a one big donate to the Ukrainian army
