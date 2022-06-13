@@ -4,7 +4,7 @@
 
 ### tried, good
 
-- [ ] [Intro to Bluetooth Low Energy: The Easiest Way to Learn BLE](https://www.amazon.pl/Intro-Bluetooth-Low-Energy-Easiest/dp/1790198151). A video version: https://youtube.com/playlist?list=PLYj4Cw17Aw7ypuXt7mDFWAyy6P661TD48
+- [x] [Intro to Bluetooth Low Energy: The Easiest Way to Learn BLE](https://www.amazon.pl/Intro-Bluetooth-Low-Energy-Easiest/dp/1790198151). The youtube playlist: https://youtube.com/playlist?list=PLYj4Cw17Aw7ypuXt7mDFWAyy6P661TD48. The author's LinkedIn: https://www.linkedin.com/in/mafaneh/
 
 ### to try
 
