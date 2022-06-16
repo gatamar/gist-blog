@@ -59,6 +59,16 @@ exiftool -FullPanoWidthPixels=2000 -FullPanoHeightPixels=1000 -CroppedAreaLeftPi
          -CroppedAreaImageWidthPixels=2000 -CroppedAreaImageHeightPixels=1000 -ProjectionType="equirectangular" panorama.jpg
 ```
 
+## ffmpeg
+
+`brew install ffmpeg`
+
+### MOV to MP4
+
+```
+ffmpeg -i my-video.mov -vcodec h264 -acodec mp2 my-video.mp4
+```
+
 ## Other
 
 ### create loop from video
