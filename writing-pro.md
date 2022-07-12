@@ -50,3 +50,23 @@ the approach of how to solve the problem. diagrams. proofs that the proposed sol
 at the end of this section, the readers should understand what you intend to do, and they should have enough info in order to tell you whether they think it will work. 
 it’s better to be concrete than vague here, because if someone will argue on this step and catch a mistake, the mistake will be very cheap at this point. 
 
+#### security
+
+what we are protecting . from whom. why.
+
+#### alternatives considered
+was there a simpler / cheaper solution , why it was not choosen
+> you demonstrate (to yourself and others!) that you’re here to solve the problem, and you aren’t just excited about the solution.
+
+#### tradeoffs
+What are the disadvantages of your design? What tradeoffs are you intentionally making, because you think the downsides are worth the benefits?
+
+#### risks
+what can go wrong ? what are  the weakest parts of the system affected? dont hide this info as the review may give an important feedback thus helping mitigate the risks 
+
+#### dependencies
+if the system is big enough , probably some parts which you don’t own should be updated. do the owners know about it? will they do it? 
+
+#### operations
+if this is a new service, who will run and monitor it?
+
