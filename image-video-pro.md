@@ -1,3 +1,5 @@
+# Tools
+
 ## ImageMagick
 
 ### install ImageMagick MacOS
@@ -73,3 +75,25 @@ ffmpeg -i my-video.mov -vcodec h264 -acodec mp2 my-video.mp4
 
 ### create loop from video
 https://clideo.com/editor/loop-video
+
+# Processes
+
+## 🎬 Create your custom MOVIE
+
+So I have a bunch of videos from the hiking mountain trip.
+Now I want to make a "movie" and post in on Youtube via a private link.
+I have two apps installed: iMovie and LumaFusion, and they say it's more than enough.
+I'm very new to this stuff, so the UX seems terrible to me in the both apps.
+
+This is an "algorithm" of how I see such movie creation:
+1. Prepare a folder with the videos I want to merge into a one "movie".
+2. Merge that videos into a one big movie.
+3. Speed up some chunks of the movie as they are not so dynamic.
+4. Remove some chunks of the movie as they are not so interesting/appropriate.
+5. Make spoilers - copy some chunks of the movie and insert them at the beginning of the movie.
+6. For some chunks of the movie, remove the sound.
+6. For some chunks of the movie, overlay the music.
+7. For some chunks of the movie, overlay the text.
+8. For some chunks of the movie, overlay my voice with some comments.
+8. Insert photos into some places between the frames.
+9. Make animations at the edges.
